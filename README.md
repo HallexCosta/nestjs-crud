@@ -58,15 +58,32 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Routes
+
+```bash
+GET: /users
+
+POST: /users
+  Body: require { name, email, password }
+
+PATCH: /users/{id}
+  Query: require: { id }
+  Body: non-require { name, email, password }
+
+DELETE:/users/{id}
+  Query: require: { id }
+```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Stay in touch
+## Social
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [Hállex da Silva Costa](https://github.com/hallexcosta)
+- Instagram - [@hallex.costa](https://www.instagram.com/hallex.costa/)
+- Linkedin - [@hallexcosta](https://www.linkedin.com/in/hallexcosta)
+- Hotmail - hallex.costa@hotmail.com
 
 ## License
 
